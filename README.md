@@ -1,15 +1,14 @@
-# Salon Consultation Helper
+# ANCO Studio Booking Helper
 
-A Vite React prototype for a premium hair salon website. The flow helps visitors answer "Not sure what to book?" before they move into a booking or enquiry process.
+A Vite React booking helper for ANCO Studio in Auckland CBD. The app helps clients choose a sensible starting point before booking online through Kitomba.
 
 ## What It Includes
 
-- Premium landing section
-- Multi-step consultation quiz with progress indicator
-- Inspiration photo upload placeholder
-- Rule-based service recommendation logic
-- Results screen with recommended service, fit explanation, estimated time, price range, and booking CTAs
-- Editable placeholder salon pricing data in `src/App.jsx`
+- ANCO-branded landing experience
+- Plain-language consultation questions
+- Recommendations for colour, consultation, cut and styling, head spa, makeup, permanent wave and straightening, treatments, barbering, waxing, brows, lashes, and nails
+- Real booking link to ANCO Studio's Kitomba page
+- Contact details for ANCO Studio
 - Vercel-ready static build
 
 ## Local Setup
@@ -38,10 +37,6 @@ Preview the production build locally:
 npm run preview
 ```
 
-## Editing Salon Pricing
-
-Placeholder pricing and appointment times live in `src/App.jsx` inside the `salonPricing` object. Replace those values with the salon's real service names, time estimates, and price ranges when ready.
-
 ## Deploying To Vercel
 
 Vercel should auto-detect this as a Vite app.
@@ -50,5 +45,3 @@ Vercel should auto-detect this as a Vite app.
 - Install command: `npm install`
 - Build command: `npm run build`
 - Output directory: `dist`
-
-After connecting the GitHub repository in Vercel, every push to the main branch will create a production deployment. Pull requests and non-main branches create preview links.
